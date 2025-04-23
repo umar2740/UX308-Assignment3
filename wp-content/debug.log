@@ -1,0 +1,22 @@
+[04-Apr-2025 01:05:35 UTC] PHP Warning:  Undefined array key "host" in /workspaces/UX308-Lab-6/.wordpress/wp-includes/pluggable.php on line 1625
+[16-Apr-2025 18:39:46 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX308-Assignment2/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[16-Apr-2025 18:44:26 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "https://", expecting ")" in /workspaces/UX308-Assignment2/.wordpress/wp-content/themes/chatbot/functions.php on line 14
+[16-Apr-2025 18:44:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /workspaces/UX308-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[16-Apr-2025 18:44:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /workspaces/UX308-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[16-Apr-2025 18:44:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_string_contains() in /workspaces/UX308-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:454
+Stack trace:
+#0 /workspaces/UX308-Assignment2/.wordpress/wp-includes/class-wp-hook.php(324): IC_EPC_Tracking->paused_plugin_report_email(Array, 'http://localhos...')
+#1 /workspaces/UX308-Assignment2/.wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /workspaces/UX308-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php(223): apply_filters('recovery_mode_e...', Array, 'http://localhos...')
+#3 /workspaces/UX308-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php(62): WP_Recovery_Mode_Email_Service->send_recovery_mode_email(86400, Array, Array)
+#4 /workspaces/UX308-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode.php(185): WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email(86400, Array, Array)
+#5 /workspaces/UX308-Assignment2/.wordpress/wp-includes/class-wp-fatal-error-handler.php(55): WP_Recovery_Mode->handle_error(Array)
+#6 [internal function]: WP_Fatal_Error_Handler->handle()
+#7 {main}
+  thrown in /workspaces/UX308-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 454
+[16-Apr-2025 18:45:27 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "https://", expecting ")" in /workspaces/UX308-Assignment2/.wordpress/wp-content/themes/chatbot/functions.php on line 14
+[16-Apr-2025 18:47:12 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "https://umar2740.github.io/cha...", expecting ")" in /workspaces/UX308-Assignment2/.wordpress/wp-content/themes/chatbot/functions.php on line 14
+[16-Apr-2025 18:47:47 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "https://umar2740.github.io/cha...", expecting ")" in /workspaces/UX308-Assignment2/.wordpress/wp-content/themes/chatbot/functions.php on line 14
+[16-Apr-2025 18:47:59 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "https://umar2740.github.io/cha...", expecting ")" in /workspaces/UX308-Assignment2/.wordpress/wp-content/themes/chatbot/functions.php on line 14
+[16-Apr-2025 18:48:11 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "https://umar2740.github.io/cha...", expecting ")" in /workspaces/UX308-Assignment2/.wordpress/wp-content/themes/chatbot/functions.php on line 14
+[16-Apr-2025 18:49:35 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "https://umar2740.github.io/cha...", expecting ")" in /workspaces/UX308-Assignment2/.wordpress/wp-content/themes/chatbot/functions.php on line 14
